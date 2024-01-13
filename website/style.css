@@ -1,0 +1,56 @@
+body{
+  background-color: black;
+}
+h1{
+  color: white;
+}
+
+.animated {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.logo{
+  background-image: url("../website/images/logo.svg");
+  background-size: cover;
+  height: 50px !important;
+  width: 3%;
+}
+
+#line-1 {
+  overflow: hidden; /* Hide overflow text */
+  border-right: 1px solid black; /* Add a border to simulate typing cursor */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 24px;
+  margin: 0;
+  display: inline-block;
+}
+
+/* Add a blinking cursor animation */
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+}
+#typing-text::after {
+  content: "";
+  display: inline-block;
+  width: 0.1em; /* Adjust the width of the cursor */
+  animation: blink 1s infinite;
+}
+
+.bg-girl-image{
+  background-image: url("../website/images/memoji-beautiful-girl-woman-white-background-emoji_826801-6867-PhotoRoom.png-PhotoRoom.png");
+  background-size: cover;
+  height: 550px !important;
+  width: 30%;
+  position: absolute;
+  left: 60%;
+}
+
+.container{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
