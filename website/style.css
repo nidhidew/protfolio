@@ -54,3 +54,15 @@ h1{
     top: 20%;
     left: 15%;
 }
+
+.about{
+  color: white;
+  padding-top: 35%;
+  padding-left: 15%;
+  font-size: xx-large;
+}
+.about-p{
+  color: white;
+  padding-right: 15%;
+  padding-left: 15%;
+}
