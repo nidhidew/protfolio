@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "Hi !!",
         "Welcome to My Website.",
         "I am a Nidhi Dewangan.",
-        "A FullStack Developer."
+        "A Front-End Developer."
     ];
     var speed = 100; // Typing speed in milliseconds
     var delayBetweenLines = 2000; // Delay between lines in milliseconds
