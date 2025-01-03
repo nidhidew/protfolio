@@ -18,10 +18,11 @@ import {
   // SiSolidity,
   // SiPostgresql,
   SiJquery,
-  SiBootstrap,
+  //SiBootstrap,
   SiD3Dotjs,
 } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
+import { SiMysql } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -45,7 +46,7 @@ function Techstack() {
         <SiJquery />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
