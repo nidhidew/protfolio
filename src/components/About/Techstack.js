@@ -5,7 +5,7 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
+  // DiMongodb,
   // DiPython,
   DiGit,
   // DiJava,
@@ -18,7 +18,7 @@ import {
   // SiSolidity,
   // SiPostgresql,
   SiJquery,
-  //SiBootstrap,
+  SiBootstrap,
   SiD3Dotjs,
 } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
