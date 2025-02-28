@@ -5,7 +5,7 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  // DiMongodb,
+  DiMongodb,
   // DiPython,
   DiGit,
   // DiJava,
@@ -46,7 +46,7 @@ function Techstack() {
         <SiJquery />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
