@@ -22,7 +22,7 @@ import {
   SiD3Dotjs,
 } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
-import { SiMysql } from "react-icons/si";
+// import { SiMysql } from "react-icons/si";
 
 function Techstack() {
   return (
